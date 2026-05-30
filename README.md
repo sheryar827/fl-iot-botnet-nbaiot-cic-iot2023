@@ -1,6 +1,6 @@
 # fl-iot-botnet-nbaiot-cic-iot2023
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20456828.svg)](https://doi.org/10.5281/zenodo.20456828)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20456827.svg)](https://doi.org/10.5281/zenodo.20456827)
 
 Comparison of **FedAvg**, **FedProx**, and **FedTrimmedAvg** for IoT botnet
 detection on the **N-BaIoT** and **CIC-IoT2023** datasets under **non-IID**
