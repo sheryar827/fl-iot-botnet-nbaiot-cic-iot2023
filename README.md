@@ -15,7 +15,7 @@ IoT deployments.
 
 Under realistic non-IID partitioning of IoT traffic across clients, how do
 robust and proximal aggregation strategies (FedProx, FedTrimmedAvg) compare
-against vanilla FedAvg — and against a centralized upper bound — for botnet
+against vanilla FedAvg - and against a centralized upper bound - for botnet
 detection accuracy, F1, and convergence speed?
 
 ## Datasets
@@ -107,7 +107,7 @@ comparison.
 
 ### Robustness to heterogeneity (F1 drop from α = 1.0 to α = 0.1)
 
-Smaller is better — it measures how much performance is lost as client data
+Smaller is better - it measures how much performance is lost as client data
 becomes more skewed.
 
 | Dataset | Model | FedAvg | FedProx | FedTrimmedAvg |
@@ -129,7 +129,7 @@ combination, and crucially it loses the *least* performance as client skew
 increases. On CIC-IoT2023 it degrades by only ~6–7 pp from α = 1.0 to α = 0.1,
 versus ~21 pp for FedAvg. Coordinate-wise trimming discards the most extreme
 client updates, which is exactly the failure mode that severe label skew
-produces — so the result is consistent with the method's design intent.
+produces - so the result is consistent with the method's design intent.
 
 **FedProx underperforms here, and this is a tuning artifact rather than a
 property of the method.** FedProx is intended to *help* under heterogeneity,
@@ -142,7 +142,7 @@ read as "FedProx at μ = 0.01," not as a verdict on FedProx in general.
 
 **The MLP matches or beats the CNN throughout.** For engineered statistical
 flow features there is no spatial structure for convolutions to exploit, so the
-simpler MLP is competitive and often better — an expected outcome worth stating
+simpler MLP is competitive and often better - an expected outcome worth stating
 explicitly.
 
 **Note on the IID/non-IID boundary:** on CIC-IoT2023 the best α = 0.5 run
@@ -166,7 +166,7 @@ inversion.
 ## Citing this work
 
 If you use this code or results, please cite the repository (see
-[`CITATION.cff`](CITATION.cff)) — GitHub will render a **"Cite this repository"**
+[`CITATION.cff`](CITATION.cff)) - GitHub will render a **"Cite this repository"**
 button. For a permanent, citable archive, consider minting a DOI via
 [Zenodo](https://zenodo.org).
 
@@ -177,4 +177,4 @@ respective licenses; refer to the original sources.
 
 ## Author
 
-**Sheryar Kiani** — MS Cybersecurity, Air University, Islamabad.
+**Sheryar Kiani** - MS Cybersecurity, Air University, Islamabad.
