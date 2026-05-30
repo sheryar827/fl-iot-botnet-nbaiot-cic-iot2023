@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+type: software
+title: "Comparison of FedAvg, FedProx, and FedTrimmedAvg for IoT Botnet Detection on N-BaIoT and CIC-IoT2023 under Non-IID Conditions"
+abstract: >-
+  A federated learning study comparing the FedAvg, FedProx, and FedTrimmedAvg
+  aggregation strategies for IoT botnet detection on the N-BaIoT and
+  CIC-IoT2023 datasets under non-IID (Dirichlet-partitioned) client
+  distributions, with MLP and CNN classifiers, centralized baselines, and
+  multi-seed mean +/- std reporting.
+authors:
+  - family-names: "Kiani"
+    given-names: "Sheryar"
+    affiliation: "Air University, Islamabad"
+    orcid: "https://orcid.org/0009-0006-1394-5355"
+keywords:
+  - federated learning
+  - IoT security
+  - botnet detection
+  - non-IID
+  - FedAvg
+  - FedProx
+  - FedTrimmedAvg
+  - N-BaIoT
+  - CIC-IoT2023
+license: MIT
+repository-code: "https://github.com/sheryar827/fl-iot-botnet-nbaiot-cic-iot2023"
+version: "1.0.0"
+date-released: "2026-05-30"
