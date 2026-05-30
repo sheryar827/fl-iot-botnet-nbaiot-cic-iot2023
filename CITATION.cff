@@ -13,11 +13,11 @@ authors:
     given-names: "Sheryar"
     affiliation: "Air University, Islamabad"
     orcid: "https://orcid.org/0009-0006-1394-5355"
-doi: "10.5281/zenodo.20456828"
+doi: "10.5281/zenodo.20456827"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.20456828"
-    description: "Zenodo archive of this release"
+    value: "10.5281/zenodo.20456827"
+    description: "Zenodo concept DOI (all versions; resolves to latest)"
 keywords:
   - federated learning
   - IoT security
