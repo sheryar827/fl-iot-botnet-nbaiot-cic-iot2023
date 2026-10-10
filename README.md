@@ -2,6 +2,13 @@
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20456827-blue)](https://doi.org/10.5281/zenodo.20456827)
 
+> **Legacy developmental lineage.** This repository is the earlier three-arm
+> notebook study of FedAvg, FedProx, and FedTrimmedAvg. It is not the later
+> train-only confirmatory packet, the N-BaIoT device-split packet, the
+> seven-seed packet, or the coordinate-wise median packet. Those results are
+> local to the working manuscript and are not in this archive. The headline
+> comparisons below belong only to this older notebook study.
+
 Comparison of **FedAvg**, **FedProx**, and **FedTrimmedAvg** for IoT botnet
 detection on the **N-BaIoT** and **CIC-IoT2023** datasets under **non-IID**
 client distributions.
@@ -123,7 +130,7 @@ becomes more skewed.
 68.8% (CNN). N-BaIoT is the more separable task; CIC-IoT2023 is substantially
 harder.)
 
-### Key findings
+### Key findings of this legacy three-arm study
 
 **FedTrimmedAvg is the most robust aggregation strategy under non-IID data.**
 It gives the best (or statistically tied) non-IID F1 in every dataset/model
